@@ -6,21 +6,20 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Which hill school shares the HM school color?',
+        answer: 'Riverdale',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'Which continent has 44 countries?',
+        answer: 'Europe',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What is the largest island in the US?',
+        answer: 'Long Island',
     },
     {
         points: 400,
@@ -34,16 +33,16 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'This is Donu, a character from which video game?',
+                'What dog breed is this?',
             imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+            answer: 'Bichon Frise',
         },
         {
             points: 100,
             question:
-                'Tahini is made from which seed?',
+                'How long is an olympic pool?',
             imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+            answer: '50 m',
         },
         {
             points: 200,
@@ -54,10 +53,8 @@ const presentQuestions: Question[] =
         {
             points: 300,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-            imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+                'What art medium was created in 1934?',
+            answer: 'Acrylic paint',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
