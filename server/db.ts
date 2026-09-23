@@ -23,8 +23,8 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'When was the first iPhone released?',
+        answer: '2007',
     }
 ]);
 
@@ -34,21 +34,19 @@ const presentQuestions: Question[] =
             points: 400,
             question:
                 'What dog breed is this?',
-            imgSrc: '/donu-gif.gif',
+            imgSrc: 'IMG_6324',
             answer: 'Bichon Frise',
         },
         {
             points: 100,
             question:
                 'How long is an olympic pool?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
             answer: '50 m',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'Who is the main character in To All the Boys I\'ve Loved Before',
+            answer: 'Lara Jean',
         },
         {
             points: 300,
@@ -61,25 +59,25 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What city has the Statue of Liberty?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+            "statue-of-liberty-GettyImages-539667859",
+        answer: 'New York City',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Emma\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Emma's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Emma's Future",
         questions: futureQuestions
     }
 ];
