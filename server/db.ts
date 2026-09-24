@@ -28,9 +28,9 @@ const pastQuestions: Question[] = sortQuestions([
     },
         {
         points: 500,
-        question: 'What black and white mammal has an extra thumb?';
+        question: 'What black and white mammal has an extra thumb?',
         answer: 'Panda',
-    }
+        }
 ]);
 
 const presentQuestions: Question[] =
